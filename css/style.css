@@ -6,12 +6,17 @@
 }
 
 header {
-  margin: 0;
-  background: black;
+  margin: 10;
+  background: olive;
   color: white;
 }
 
 p {
-  background: red;
+  background: green;
+  color: white;
+}
+
+li {
+  background: green;
   color: white;
 }

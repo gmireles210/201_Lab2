@@ -29,9 +29,9 @@ if (travel.toLowerCase() === 'y' || travel.toLowerCase() === 'yes') {
 var snow = prompt('How many countries have I snowboarded in?');
 //console.log('snow goals:', goal);
 if (snow === '7' || snow.toLowerCase() === 'seven') {
-  alert('Yes, I have been to 7 different countries');
+  alert('Yes, I have been snowboarding in 7 different countries');
 } else {
-  alert('Wrong, I have been to 7 different countries');
+  alert('Wrong, I have been snowboarding in 7 different countries');
 }
 
 var tech = prompt('Where did I start getting into coding?');

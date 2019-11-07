@@ -10,21 +10,21 @@ if (school.toLowerCase() === 'y' || school.toLowerCase() === 'yes') {
   alert('Correct! I went to the University of Washington');
 }
 
-var job = prompt('How many years was I in the Army?');
+/*var job = prompt('How many years was I in the Army?');
 //console.log('work history:', job);
 if (job === '10' || job === 'ten') {
   alert('Correct!, I was in the Army);
 } else {
   alert('Wrong answer to this question');
-}
+}*/
 
-var travel = prompt('Have I traveled a lot?');
+/*var travel = prompt('Have I traveled a lot?');
 //console.log('travel:', travel);
 if (travel.toLowerCase() === 'y' || travel.toLowerCase() === 'yes') {
   alert('Yes, I have traveled a lot!');
 } else {
   alert('Wrong, I have traveled a lot.);
-}
+}*/
 
 var snow = prompt('How many countries have I snowboarded in?');
 //console.log('snow goals:', goal);

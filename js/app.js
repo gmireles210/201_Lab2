@@ -42,49 +42,7 @@ if (tech === 'Seattle') {
   alert('Wrong, I started in Seattle.');
 }
 
-// number question
-var number;
-var counter = 1;
 
-while(number !== 13) {
-  number = parseInt(prompt('what is your fav number?'));
-
-  if (number < 13) {
-    alert('you guessed too low');
-    counter++;
-  } else if (number >13) {
-    alert('you guessed too high');
-    counter++;
-  } else if (number === NaN || number === null) {
-    alert('please enter a real number');
-    counter++;
-  } else if (number === number[13]) {
-    alert('nice job, my fav number is ' + '' + number[13]);
-  } 
-}
-alert('current count:', counter);
-
-// Beer question
-var beer = ['IPA', 'Pilsner', 'Dunkel', 'Meade'];
-var answer = prompt('what is your favorite beer?');
-
-var flag;
-
-for (var i = 0; i < beer.length; i++) {
-  console.log('current item:', beer[i]);
-
-  if (answer === beer[i]) {
-    alert('nice job, i really like' + ' ' + beer[i]);
-    break;
-  }
-}
-
-if (!flag) {
-  alert('no, you are incorrect');
-}
-
-
-var user1 = alert('Thank you for playing ' + user);
 
 
 

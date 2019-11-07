@@ -42,7 +42,27 @@ if (tech === 'Seattle') {
   alert('Wrong, I started in Seattle.');
 }
 
+// number question
+var number;
+var counter = 1;
 
+while(number !== 13) {
+  number = parseInt(prompt('what is your fav number?'));
+
+  if (number < 13) {
+    alert('you guessed too low');
+    counter++;
+  } else if (number >13) {
+    alert('you guessed too high');
+    counter++;
+  } else if (number === NaN || number === null) {
+    alert('please enter a real number');
+    counter++;
+  } else if (number === number[13]) {
+    alert('nice job, my fav number is ' + '' + number[13]);
+  } 
+}
+alert('current count:', counter);
 
 
 

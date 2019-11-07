@@ -42,6 +42,30 @@ if (tech === 'Seattle') {
   alert('Wrong, I started in Seattle.');
 }
 
+// number question
+var number;
+var counter = 1;
+
+while(number !== 13) {
+  number = parseInt(prompt('what is your fav number?'));
+
+  if (number < 13) {
+    alert('you guessed too low');
+    counter++;
+  } else if (number >13) {
+    alert('you guessed too high');
+    counter++;
+  } else if (number === NaN || number === null) {
+    alert('please enter a real number');
+    counter++;
+  } else if (number === number[13]) {
+    alert('nice job, my fav number is ' + '' + number[13]);
+  } if counter > 4:
+    alert('You may not exceed 4 attempts and my fav number is 13');
+}
+alert('current count:', counter);
+
+// Beer question
 var beer = ['IPA', 'Pilsner', 'Dunkel', 'Meade'];
 var answer = prompt('what is your favorite beer?');
 
@@ -59,28 +83,6 @@ for (var i = 0; i < beer.length; i++) {
 if (!flag) {
   alert('no, you are incorrect');
 }
-
-var number;
-var counter = 6;
-
-while(number !== 13) {
-  number = parseInt(prompt('what is your fav number?'));
-
-  if (number < 13) {
-    alert('you guessed too low');
-    counter++;
-  } else if (number >13) {
-    alert('you guessed too high');
-    counter++;
-  } else if (number === NaN || number === null) {
-    alert('please enter a real number');
-    counter++;
-  } if (number === number[13]) {
-    alert('nice job, my fav number is ' + '' + number[13]);
-  }
-}
-
-//console.log('current count:', counter);
 
 
 var user1 = alert('Thank you for playing ' + user);

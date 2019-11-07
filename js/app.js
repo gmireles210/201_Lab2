@@ -18,11 +18,11 @@ console.log('school goals:', goal);
 var tech = prompt('Do you want to work in tech?');
 console.log('tech job:', tech);
 
-if (kids === '3' || kids === '4') {
-  console.log('kids eval:', 'great');
+if (school === 'y' || school === 'Y') {
+  console.log('Went to school:', 'great');
   // do stuff here
 }
 
-if (guitars === '3' && kids === '3') {
-  console.log('guitars eval:', 'cool')
+if (school === 'y' && goal === 'y') {
+  console.log('Higher Education:', 'smart')
 }

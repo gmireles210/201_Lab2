@@ -1,11 +1,22 @@
-body {
-  background-color: olive;
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: helvetica;
 }
 
 header {
-  background-color: blue;
+  margin: 10;
+  background: olive;
+  color: white;
 }
 
 p {
-  color: black;
+  background: green;
+  color: white;
+}
+
+li {
+  background: violet;
+  color: white;
 }

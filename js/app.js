@@ -60,8 +60,7 @@ while(number !== 13) {
     counter++;
   } else if (number === number[13]) {
     alert('nice job, my fav number is ' + '' + number[13]);
-  } if counter > 4:
-    alert('You may not exceed 4 attempts and my fav number is 13');
+  } 
 }
 alert('current count:', counter);
 

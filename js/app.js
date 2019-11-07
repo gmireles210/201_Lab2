@@ -3,7 +3,7 @@
 var user = prompt('Hello! What is your name?');
 console.log('name of user:', user);
 
-var school = prompt('Where did I go to school?');
+var school = prompt('Did I go to school at UW?');
 console.log('education:', school);
 
 var job = prompt('Was I in the Army?');
@@ -18,11 +18,11 @@ console.log('school goals:', goal);
 var tech = prompt('Do I work in the tech industry?');
 console.log('tech job:', tech);
 
-if (school === 'y' || school === 'Y') {
+if (school.toUpperCase() === 'yes' || school === 'YES') {
   console.log('Went to school:', 'great');
   // do stuff here
 }
 
-if (school === 'y' && goal === 'y') {
-  console.log('Higher Education:', 'smart')
+if (school === 'n' && goal === 'y') {
+  console.log('Higher Education:', 'False')
 }

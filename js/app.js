@@ -62,6 +62,7 @@ while(number !== 13) {
     alert('nice job, my fav number is ' + '' + number[13]);
   } if (counter >= 5) {
     alert('Too many attempts, my fav number is 13');
+    break;
   }
 }
 

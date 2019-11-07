@@ -1,16 +1,28 @@
 'use strict';
 
-var kids = prompt('how may kids does brian have?');
-console.log('number of kids:', kids);
+var user = prompt('Hello! What is your name?');
+console.log('name of user:', user);
 
-var guitars = prompt('how many guitars does brian have?');
-console.log('num guitars:', guitars);
+var school = prompt('Did I go to school at UW?');
+console.log('education:', school);
 
-if (kids === '3' || kids === '4') {
-  console.log('kids eval:', 'great');
+var job = prompt('Was I in the Army?');
+console.log('work history:', job);
+
+var travel = prompt('Have I traveled a lot?');
+console.log('travel:', travel);
+
+var goal = prompt('Did I go to graduate school?');
+console.log('school goals:', goal);
+
+var tech = prompt('Do I work in the tech industry?');
+console.log('tech job:', tech);
+
+if (school.toUpperCase() === 'yes' || school === 'YES') {
+  console.log('Went to school:', 'great');
   // do stuff here
 }
 
-if (guitars === '3' && kids === '3') {
-  console.log('guitars eval:', 'cool')
+if (school === 'n' && goal === 'y') {
+  console.log('Higher Education:', 'False')
 }

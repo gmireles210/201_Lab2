@@ -65,7 +65,27 @@ while(number !== 13) {
   }
 }
 
+// Beer question
+var beer = ['IPA', 'Pilsner', 'Dunkel', 'Meade'];
+var answer = prompt('what is your favorite beer?');
 
+var flag;
+
+for (var i = 0; i < beer.length; i++) {
+  console.log('current item:', beer[i]);
+
+  if (answer === beer[i]) {
+    alert('nice job, i really like' + ' ' + beer[i]);
+    break;
+  }
+}
+
+if (!flag) {
+  alert('no, you are incorrect');
+}
+
+
+var user1 = alert('Thank you for playing ' + user);
 
 
 

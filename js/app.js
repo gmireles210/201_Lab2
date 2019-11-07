@@ -39,7 +39,7 @@ var tech = prompt('Where did I start getting into coding?');
 if (tech.toLowerCase() === 'Seattle' || tech.toLowerCase() === 'Seattle, Washington') {
   alert('Yes, I started to code in Seattle!');
 } else {
-  alert('Wrong, I started in Seattle.' + tech);
+  alert('Wrong, I started in Seattle.');
 }
 
 document.getElementById('user').innerHTML = user;

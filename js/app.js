@@ -77,8 +77,8 @@ for (var i = 0; i < beer.length; i++) {
 
   if (answer === beer[i]) {
     alert('nice job, i really like' + ' ' + beer[i]);
-    break;
-  }
+  } else if (answer === '');
+  alert('please try again');
 }
 
 if (!flag) {

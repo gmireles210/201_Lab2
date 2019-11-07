@@ -60,11 +60,11 @@ while(number !== 13) {
     counter++;
   } else if (number === number[13]) {
     alert('nice job, my fav number is ' + '' + number[13]);
-  } if (counter >= 4) {
+  } if (counter >= 5) {
     alert('Too many attempts, my fav number is 13');
   }
 }
-alert('current count:', counter);
+
 
 
 

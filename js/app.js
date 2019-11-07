@@ -5,9 +5,9 @@ var user = prompt('Hello! What is your name?');
 var school = prompt('Did I go to school at UW? Please answer with a yes or no');
 // console.log('education:', school);
 if (school.toLowerCase() === 'y' || school.toLowerCase() === 'yes') {
-  alert('Wrong answer to this question');
-} else {
   alert('Correct! I went to the University of Washington');
+} else {
+  alert('Wrong answer to this question');
 }
 
 var job = prompt('How many years was I in the Army?');

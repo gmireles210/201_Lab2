@@ -2,12 +2,12 @@
 
 var user = prompt('Hello! What is your name?');
 
-var school = prompt('Did I go to school at UW? Please answer with a yes or no');
+var school = prompt('Did I go to school at UW? Please answer with a yes or no').toUpperCase();
 // console.log('education:', school);
-if (school.toLowerCase() === 'y' || school.toLowerCase() === 'yes') {
-  alert('Wrong answer to this question');
-} else {
+if (school === 'Y' || school === 'YES') {
   alert('Correct! I went to the University of Washington');
+} else {
+  alert('Wrong answer to this question');
 }
 
 var job = prompt('How many years was I in the Army?');
@@ -20,15 +20,15 @@ if (job === '10' || job === 'ten') {
 
 var travel = prompt('Have I traveled a lot?');
 //console.log('travel:', travel);
-if (travel.toLowerCase() === 'y' || travel.toLowerCase() === 'yes') {
+if (travel === 'y' || travel === 'yes') {
   alert('Yes, I have traveled a lot!');
 } else {
   alert('Wrong, I have traveled a lot.');
 }
 
-var snow = prompt('How many countries have I snowboarded in?');
+var snow = prompt('How many countries have I snowboarded in? Please answer using numbers spelled out').toLowerCase();
 //console.log('snow goals:', goal);
-if (snow === '7' || snow.toLowerCase() === 'seven') {
+if (snow === 'seven') {
   alert('Yes, I have been to 7 different countries');
 } else {
   alert('Wrong, I have been to 7 different countries');
@@ -36,10 +36,10 @@ if (snow === '7' || snow.toLowerCase() === 'seven') {
 
 var tech = prompt('Where did I start getting into coding?');
 //console.log('tech job:', tech);
-if (tech.toLowerCase() === 'Seattle' || tech.toLowerCase() === 'Seattle, Washington') {
+if (tech === 'Seattle') {
   alert('Yes, I started to code in Seattle!');
 } else {
-  alert('Wrong, I started in Seattle.' + tech);
+  alert('Wrong, I started in Seattle.');
 }
 
-document.getElementById('user').innerHTML = user;
+var user1 = alert('Thank you for playing ' + user);

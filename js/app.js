@@ -86,7 +86,7 @@ for (var i = 6; i >= 0; i--) {
     correctanswer++;
     break;
   } else {
-    alert('That is wrong!');
+    alert('That is wrong!' + beer + 'are the ones I like!');
   }
 }
 

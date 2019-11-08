@@ -74,10 +74,10 @@ for (var i = 6; i >= 0; i--) {
   
   var beerPlease = prompt('What is my fav beer?');
   if (beer.includes(beerPlease)) {
-      alert('nice job, i really like' + ' ' + beerPlease);
-      break;
+    alert('nice job, i really like' + ' ' + beerPlease);
+    break;
   } else {
-     alert('That is wrong!');
+    alert('That is wrong!');
   }
 }
 

@@ -77,7 +77,7 @@ for (var i = 6; i >= 0; i--) {
     alert('nice job, i really like' + ' ' + beerPlease);
     break;
   } else {
-    alert('That is wrong!', + '' + beer[i]);
+    alert('That is wrong!');
   }
 }
 

@@ -70,7 +70,7 @@ while(number !== 13) {
 var beer = ['IPA', 'Pilsner', 'Dunkel', 'Meade'];
 var answer = prompt('what is your favorite beer?');
 
-for (var i = 7; i >= 0; i--) {
+for (var i = 6; i >= 0; i--) {
   
   var beerPlease = prompt('What is my fav beer?');
   if (beer.includes(beerPlease)) {
